@@ -1,0 +1,27 @@
+public class PercobaanStack {
+    public static void main(String [] args){
+        NewStack S = new NewStack();
+        
+        S.createEmpty();
+        S.printStack();
+        
+        System.out.println("**************************************");
+        
+        S.push ("E31200245", "Nur", 80.00);
+        S.push ("E31201245", "Laili" , 85.00);
+        S.push ("E31202245", "Wahyu", 90.00);
+        
+        
+        S.printStack();
+        
+        System.out.println("++++++++++++++++++++++++++++++++++++++");
+        
+        S.pop();
+        S.pop();
+        S.pop();
+        S.printStack();
+        
+        System.out.println("===========================================");
+    }
+    
+}
