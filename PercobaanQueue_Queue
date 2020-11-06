@@ -1,0 +1,20 @@
+public class PercobaanQueue {
+    public static void main(String[] args) {
+        Queue Q = new Queue ();
+        Q.createEmpty();
+        Q.printQueue();
+        
+        System.out.println("==========================");
+        
+        Q.add("E31200245", "Nur", 80.00);
+        Q.add("E31201245", "Laili", 85.00);
+        Q.add("E31202245", "Wahyu", 90.00);
+        
+        Q.printQueue();
+        System.out.println("==========================");
+        Q.del();
+        Q.del();
+        System.out.println("==========================");
+        
+    }
+}
